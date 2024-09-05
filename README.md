@@ -1,4 +1,5 @@
 <h1>Splunk Log Analysis</h1>
+<br>
 
 <h2>Description</h2>
 
@@ -7,6 +8,7 @@
 - Log Analysis Instructions is the file describing the Assignent (.docx)
 - The remaining 4 .csv files (comma-separated values) are the Log files for analysis. 
 - The Powerpoint is my findings after parsing the Logs for unusual activity. Try doing the assignment yourself <b>BEFORE</b> viewing the Powerpoint solution. I promise you it is excellent experience for being a SOC Analyst.
+<br>
 
 <h2>Installing Splunk</h2>
 
@@ -21,6 +23,7 @@
 
 4. Download the apropriate one for your O.S.
    ![SplunkDL3](https://github.com/user-attachments/assets/5bc8b55a-d19d-44e0-9951-4c2cc911e4c0)
+<br>
 
 <h2>Adding the .csv files</h2>
 
@@ -37,6 +40,7 @@
    ![SplunkUpload2](https://github.com/user-attachments/assets/f76431cc-1b8a-45ad-acd5-e14e37f53bc5)
 
 5. Do this for each of the .csv files.
+<br>
 
 <h2>Navigating Splunk</h2>
 
@@ -52,4 +56,4 @@
 - Here is an <b>Example Query</b> to get you started. Our goal is to look for Unusual Activity. Let's say we want to look for unsucessful Login attempts, We notice In the Interesting Fields column there is a <b>Message</b> field. So lets type in a Quiery that searches the Message field for messages that would indicate unsuccessful or failed login attempts:
    ![Search2](https://github.com/user-attachments/assets/b946d693-e512-4ee2-b9ec-4d9ad0f8390a)
   
-- Remember, ChatGPT is your friend for constructing more complex queries to search through and narrow down the Data. If you find any unusual IP addresses that you suspect are malicious, check them on <a href="https://www.virustotal.com/gui/home/url" target="_blank">VirusTotal</a> <b>Good Luck!</b>
+- Remember, ChatGPT is your friend for constructing more complex queries to search through and narrow down the Data. If you find any unusual IP addresses that you suspect are malicious, check them on <a href="https://www.virustotal.com/gui/home/url" target="_blank">VirusTotal</a>. <b>Good Luck!</b>
